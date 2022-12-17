@@ -1,0 +1,21 @@
+.colA {
+    display: block;
+}
+
+.tabDesc {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.tabDesc > div {
+    background-color: #f15050;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
