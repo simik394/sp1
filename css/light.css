@@ -1,0 +1,29 @@
+/**********************************--BODY--*****************************/
+body {
+    background-color: white;
+    color: black;
+  }
+
+/***********************************--NAVIGATION--**********************/
+/* The side navigation menu */
+.navigation {
+    background-color: #e6d7d7;
+  }
+  
+  /* navigation links */
+  .navigation a {
+    color: rgb(3, 0, 0);
+  }
+  
+  /* Active/current link */
+  .navigation a.active {
+    background-color: #28047a;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .navigation a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  

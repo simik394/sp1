@@ -1,0 +1,19 @@
+/**********************************--BODY--*****************************/
+dark-body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(245, 243, 243);
+  }
+
+/***********************************--NAVIGATION--**********************/
+/* The side navigation menu */
+.dark-navigation {
+    background-color: #3f3e3e;
+  }
+  
+  /* navigation links */
+  .dark-nav-a{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+  }
+  
+  
