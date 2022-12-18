@@ -2,16 +2,20 @@
 <html>
   <head>
     <title>About Us</title>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
     <link href="css/navigation.css" rel="stylesheet">
   </head>
-  <body>
-    <nav class="navigation">
-      <a href="index.html" >About Me </a>
-      <a href="myCalendar.html" class="active"> Calendar</a>
-      <a href="timeline.html"> Timeline</a>
-      <a href="mypartTimeJob.html">Work Experience </a>
-      <a href="tf.html">Achievements</a>
-      
+  <nav class="navigation" id="nav">
+    <a href="index.html" class="active">About Me </a>
+    <a href="myCalendar.html"> Calendar</a>
+    <a href="timeline.html"> Timeline</a>
+    <a href="mypartTimeJob.html">Work Experience </a>
+    <a href="tf.html">Achievements</a>
+    <a href="javascript:void(0);" class="icon" onclick="dropDownMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
   </nav>
     <div class="content">
       <iframe src="https://calendar.google.com/calendar/embed?src=eb89d4e4bb753a6703b8e9ae959bea886ce31e7e99f2cfd28e46b3a6d0d3f8f2%40group.calendar.google.com&ctz=Europe%2FPrague" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

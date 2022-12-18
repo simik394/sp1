@@ -2,16 +2,21 @@
 <html>
   <head>
     <title>About Us</title>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="scripts.js"></script>
     <link href="css/navigation.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navigation">
-      <a href="index.html" >About Me </a>
+    <nav class="navigation" id="nav">
+      <a href="index.html" class="active">About Me </a>
       <a href="myCalendar.html"> Calendar</a>
       <a href="timeline.html"> Timeline</a>
-      <a href="mypartTimeJob.html" class="active">Work Experience </a>
+      <a href="mypartTimeJob.html">Work Experience </a>
       <a href="tf.html">Achievements</a>
-      
-  </nav>
+      <a href="javascript:void(0);" class="icon" onclick="dropDownMenu()">
+          <i class="fa fa-bars"></i>
+      </a>
+    </nav>
   </body>
 </html>
