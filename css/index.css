@@ -6,6 +6,7 @@
     width: 100%;
     display:flex;
     flex-wrap: wrap;
+    align-items: center;
     margin-top: 50px;
   }
 
@@ -21,9 +22,9 @@
     max-width: 150px;
     text-align: center;
     width: min-content;
+    height: min-content;
   }
 
   .tabDesc > div p {
     margin: -4px;
   }
-
