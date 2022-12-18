@@ -64,6 +64,14 @@
 .navigation .icon {
   display: none;
 }
+.box {
+  /*  border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;*/
+    margin-top: -20px;
+    display:flex;
+  }
+
   /* On screens that are less than 700px wide, make the navigation into a topbar */
   @media screen and (max-width: 700px) {
     /*.navigation a:not(:first-child) {display: none;}    now useless*/
@@ -83,6 +91,7 @@
     }
     div.content {margin-left: 0;}
     .header {margin-left: 0;}
+    .box {display: inline-block;}
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
