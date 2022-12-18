@@ -29,12 +29,7 @@
     color: white;
   }
   
-  /* Page content. The value of the margin-left property should match the value of the navigation's width property */
-  div.content {
-    margin-left: 200px;
-    padding: 1px 16px; /* vyřešit kvůli headru*/
-    height: 1000px;
-  }
+  
 
   /* Hide the link that should open and close the topnav on small screens */
 .navigation .icon {
@@ -58,6 +53,7 @@
       float:left;
     }
     div.content {margin-left: 0;}
+    .header {margin-left: 0;}
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */

@@ -1,0 +1,14 @@
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    margin-left: 180px;
+  }
+
+/* Page content. The value of the margin-left property should match the value of the navigation's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px; /* vyřešit kvůli headru*/
+    height: 1000px;
+    /*overflow: auto;*/
+  } 
