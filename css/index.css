@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: DodgerBlue;
     overflow: auto;
+    border-radius: 12px;
   }
 
 .tabDesc > div {
@@ -11,4 +12,8 @@
     padding: 20px;
     font-size: 30px;
   }
-
+.self-intro{
+  background-color: #636363;
+  border-radius: 20px;
+  padding: 12px;
+}
