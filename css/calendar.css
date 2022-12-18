@@ -1,9 +1,10 @@
 .respFrame {
     height:800px;
-    width: 96%;
+    width: 97%;
     min-width: 600px;
     padding: 12px;
-    background-color: rgb(1, 2, 95);
+    background-color: rgb(60, 109, 148);
+    border-radius: 12px;
 }    
 
 .iframe-box {

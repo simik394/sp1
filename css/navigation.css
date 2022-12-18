@@ -12,6 +12,7 @@
 
 .nav-pic {
   width: 187px;
+  background-color: rgb(36, 99, 151);
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -92,7 +93,7 @@ div.content {
 
   .navigation a.icon {
     display: block;
-    float: left;
+    float: right;
   }
 
   div.content {
