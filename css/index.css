@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: DodgerBlue;
+    overflow: auto;
   }
 
 .tabDesc > div {
@@ -11,8 +12,3 @@
     font-size: 30px;
   }
 
-.header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
-  }

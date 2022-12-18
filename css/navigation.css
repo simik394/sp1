@@ -36,6 +36,13 @@
     height: 1000px;
   }
 
+  .header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    margin-left: 195px;
+  }
+
   /* Hide the link that should open and close the topnav on small screens */
 .navigation .icon {
   display: none;
@@ -58,6 +65,7 @@
       float:left;
     }
     div.content {margin-left: 0;}
+    .header {margin-left: 0;}
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
