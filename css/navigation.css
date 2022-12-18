@@ -12,6 +12,7 @@
 
 .nav-pic {
   width: 187px;
+  background-color: rgb(36, 99, 151);
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -92,7 +93,7 @@ div.content {
 
   .navigation a.icon {
     display: block;
-    float: left;
+    float: right;
   }
 
   div.content {
@@ -126,4 +127,22 @@ div.content {
     display: block;
     text-align: left;
   }
+}
+
+
+@media print {
+  .navigation {display: none;}
+  
+  div.content {
+    margin-left: 0;
+  }
+
+  .header {
+    margin-left: 0;
+  }
+  /* .pin-board {
+    margin-left: 500px;
+    width: 100%;
+    margin-top: 75px;
+  } */
 }
