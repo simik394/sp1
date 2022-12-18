@@ -4,15 +4,20 @@
 <title>/simik394</title>
 <link href="css/navigation.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="scripts.js"></script>
 </head>
 <body> 
-<nav class="navigation">
+<nav class="navigation" id="nav">
     <a href="index.html" class="active">About Me </a>
     <a href="myCalendar.html"> Calendar</a>
     <a href="timeline.html"> Timeline</a>
     <a href="mypartTimeJob.html">Work Experience </a>
     <a href="tf.html">Achievements</a>
-    
+    <a href="javascript:void(0);" class="icon" onclick="dropDownMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
 </nav>
 <div class="content">
     <div class="header">
@@ -21,7 +26,7 @@
     <div>
         42069
     </div>
-    <div class="tebDesc">
+    <div class="tabDesc">
         <div>
             <p>protože jsem super originalni</p>
         </div>

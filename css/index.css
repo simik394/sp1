@@ -1,10 +1,7 @@
-.colA {
-    display: block;
-}
-
 .tabDesc {
     display: flex;
     justify-content: space-between;
+    background-color: DodgerBlue;
   }
 
 .tabDesc > div {
