@@ -20,9 +20,12 @@
   
   /* Active/current link */
   .navigation a.active {
-    background-color: #28047a;
+    background-color: #190941;
     color: white;
-    border-radius: 5px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5a526d;
   }
   
   /* Links on mouse-over */
@@ -39,12 +42,15 @@
   }
 
   .header {
-    background-color: #28047a;
+    background-color: #190150;
     color: white;
     text-align: center;
     padding: 10px;
-    margin-left: 180px;
-    border-radius: 12px;
+    margin-left: 200px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #584681;
   }
 
   /* Hide the link that should open and close the topnav on small screens */
