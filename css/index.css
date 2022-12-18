@@ -1,19 +1,24 @@
 .tabDesc {
     display: flex;
     justify-content: space-between;
-    background-color: DodgerBlue;
+    /*background-color: #1c03a8;
+    border-radius: 12px;*/
     overflow: auto;
-    border-radius: 12px;
   }
 
 .tabDesc > div {
-    background-color: #f15050;
+    background-color: #413a6d;
+    color: white;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    border-radius: 10ch;
   }
 .self-intro{
-  background-color: #636363;
-  border-radius: 20px;
+  /*background-color: #48445e;*/
+  color: white;
+  border-radius: 10px;
   padding: 12px;
+  /*border-style: solid;
+  border-width: 1px;*/
 }

@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #e6d7d7;
+    background-color: #968693;
     position: fixed;
     height: 100%;
     overflow: auto;
+    border-radius: 5px;
   }
   
   /* navigation links */
@@ -21,6 +22,7 @@
   .navigation a.active {
     background-color: #28047a;
     color: white;
+    border-radius: 5px;
   }
   
   /* Links on mouse-over */
@@ -37,10 +39,11 @@
   }
 
   .header {
-    background-color: #F1F1F1;
+    background-color: #28047a;
+    color: white;
     text-align: center;
     padding: 10px;
-    margin-left: 195px;
+    margin-left: 180px;
     border-radius: 12px;
   }
 
