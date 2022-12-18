@@ -1,0 +1,21 @@
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80%;
+    float: right;
+  }
+
+  .box {
+    display:flex
+  }
+
+  .box p {
+    padding: 10px;
+    
+  }
+
+  .filler {
+    height: 30%;
+    border-style: dotted;
+  }
