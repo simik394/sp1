@@ -3,8 +3,8 @@
     background-color: #2b273f;
     font-family: Helvetica, sans-serif;
   }
-  
-  .intro{
+
+  .intro {
     /*background-color: #48445e;*/
     color: white;
     border-radius: 10px;
@@ -14,8 +14,5 @@
   }
 
   .hiden {
-    display:none
+    display: none
   }
-
-
-  
