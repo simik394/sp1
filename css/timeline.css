@@ -65,7 +65,8 @@
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent rgb(73, 158, 228);;
+  border-color: transparent transparent transparent rgb(73, 158, 228);
+  ;
 }
 
 /* Add arrows to the right container (pointing left) */

@@ -131,8 +131,10 @@ div.content {
 
 
 @media print {
-  .navigation {display: none;}
-  
+  .navigation {
+    display: none;
+  }
+
   div.content {
     margin-left: 0;
   }
@@ -140,6 +142,7 @@ div.content {
   .header {
     margin-left: 0;
   }
+
   /* .pin-board {
     margin-left: 500px;
     width: 100%;
